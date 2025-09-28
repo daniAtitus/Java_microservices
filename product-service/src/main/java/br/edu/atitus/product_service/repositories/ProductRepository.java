@@ -1,7 +1,6 @@
-package br.edu.atitus.currency_service.repositories;
+package br.edu.atitus.product_service.repositories;
 
-import br.edu.atitus.currency_service.entities.ProductEntity;
-import org.hibernate.type.descriptor.converter.spi.JpaAttributeConverter;
+import br.edu.atitus.product_service.entities.ProductEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

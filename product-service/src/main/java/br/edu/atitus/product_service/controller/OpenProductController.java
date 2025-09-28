@@ -1,7 +1,7 @@
-package br.edu.atitus.currency_service.controller;
+package br.edu.atitus.product_service.controller;
 
-import br.edu.atitus.currency_service.entities.ProductEntity;
-import br.edu.atitus.currency_service.repositories.ProductRepository;
+import br.edu.atitus.product_service.entities.ProductEntity;
+import br.edu.atitus.product_service.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

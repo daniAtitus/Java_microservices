@@ -1,4 +1,4 @@
-package br.edu.atitus.currency_service.controllers;
+package br.edu.atitus.product_service.controllers;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.atitus.currency_service.entities.CurrencyEntity;
-import br.edu.atitus.currency_service.repositories.CurrencyRepository;
+import br.edu.atitus.product_service.entities.CurrencyEntity;
+import br.edu.atitus.product_service.repositories.CurrencyRepository;
 
 @RestController
 @RequestMapping("currency")

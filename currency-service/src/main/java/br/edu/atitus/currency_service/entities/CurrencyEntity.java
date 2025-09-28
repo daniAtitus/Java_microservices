@@ -1,4 +1,4 @@
-package br.edu.atitus.currency_service.entities;
+package br.edu.atitus.product_service.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

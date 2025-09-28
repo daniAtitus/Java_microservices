@@ -1,8 +1,6 @@
-package br.edu.atitus.currency_service.entities;
+package br.edu.atitus.product_service.entities;
 
 import jakarta.persistence.*;
-import jdk.jfr.Threshold;
-import org.apache.coyote.http11.filters.SavedRequestInputFilter;
 
 @Entity
 @Table(name="tb_product")
